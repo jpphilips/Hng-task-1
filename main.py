@@ -10,7 +10,6 @@ app = FastAPI(
 
 @app.get("/")
 def home():
-
     return {
         "slackUsername": "Jp",
         "backend": True,
