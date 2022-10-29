@@ -1,6 +1,6 @@
 from fastapi import FastAPI
 from fastapi import HTTPException
-from fastapi.middleware.core import CORSMiddleware
+from fastapi.middleware.cors import CORSMiddleware
 
 app = FastAPI(
     title="College API",
