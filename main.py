@@ -3,7 +3,7 @@ from fastapi import HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 
 app = FastAPI(
-    title="College API",
+    title="HNGi9 API",
     description="An api endoint that returns a json response for Hng internship",
 )
 
